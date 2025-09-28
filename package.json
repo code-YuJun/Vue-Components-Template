@@ -5,9 +5,35 @@
   "engines": {
     "node": ">=18"
   },
-  "scripts": {},
-  "devDependencies": {
-    "typescript": "5.8.2"
+  "scripts": {
+    "build": "turbo run build",
+    "build:core": "turbo run build --filter=vue-components",
+    "publish:core": "cd packages/core && npm publish",
+    "publish:core:beta": "cd packages/core && npm publish --tag beta",
+    "dev:core": "turbo run dev --filter=vue-components",
+    "ci:publish": "pnpm changeset publish -r --filter=vue-components",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types",
+    "lint": "turbo run lint",
+    "lint:fix": "oxlint ./packages --fix && eslint . --fix",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky",
+    "cz": "cz"
   },
-  "config": {}
+  "devDependencies": {
+    "typescript": "5.8.2",
+    "turbo": "^2.5.4",
+    "eslint": "^9.30.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.21.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
 }

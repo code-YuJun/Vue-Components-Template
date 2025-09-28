@@ -1,0 +1,21 @@
+[?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
+> vue-components@1.0.0 dev C:\Users\25941\Desktop\Vue-Components-Template\packages\core
+> vite -p 6006[5;1H[?25hfile:///C:/Users/25941/Desktop/Vue-Components-Template/node_modules/.pnpm/vite@6.3.6_sass@1.93.2/node_modules/vite/dist/node/cli.js:448
+          throw new CACError(`Unknown option \`${name.length > 1 ? `--${name}` : `-${name}`}\``);
+                ^
+
+CACError: Unknown option `-p`
+    at Command.checkUnknownOptions (file:///C:/Users/25941/Desktop/Vue-Components-Template/node_modules/[4m.pnpm[24m/vite@6.3.6_sass@1.93.2
+[7;132H2/node_modules/[4mvite[24m/dist/node/cli.js:448:17)[K
+    at CAC.runMatchedCommand (file:///C:/Users/25941/Desktop/Vue-Components-Template/node_modules/[4m.pnpm[24m/vite@6.3.6_sass@1.93.2/node_
+[7;132H_modules/[4mvite[24m/dist/node/cli.js:646:13)[K
+    at CAC.parse (file:///C:/Users/25941/Desktop/Vue-Components-Template/node_modules/[4m.pnpm[24m/vite@6.3.6_sass@1.93.2/node_modules/[4mvite[24m
+[4m[7;132He[24m/dist/node/cli.js:585:12)
+    at file:///C:/Users/25941/Desktop/Vue-Components-Template/node_modules/[4m.pnpm[24m/vite@6.3.6_sass@1.93.2/node_modules/[4mvite[24m/dist/node/
+[7;132H/cli.js:947:5
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:329:25)[m
+[90m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)[m
+
+Node.js v22.17.0
+[30m[41m ELIFECYCLE [m [31mCommand failed with exit code 1.[m
+[?9001l[?1004l
