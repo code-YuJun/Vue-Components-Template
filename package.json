@@ -1,9 +1,7 @@
 {
-  "name": "Vue-Components-Template",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@10.12.4",
-  "description": "Vue3 组件库模板",
   "engines": {
     "node": ">=18"
   },

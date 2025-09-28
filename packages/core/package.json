@@ -1,0 +1,65 @@
+{
+  "name": "vue-components",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "",
+  "description": "Vue组件库模板",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-YuJun/Vue-Components-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/code-YuJun/Vue-Components-Template/issues",
+    "email": "2594131385@qq.com"
+  },
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "vue-components-template"
+  ],
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.vue"
+  ],
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "import": "./dist/es/index.js",
+      "require": "./dist/umd/index.js"
+    },
+    "./es/*": "./dist/es/*",
+    "./styles/*": "./dist/styles/*",
+    "./types/*": "./types/components/*/types.d.ts"
+  },
+  "main": "dist/es/index.js",
+  "module": "dist/es/index.js",
+  "browser": "dist/umd/index.js",
+  "unpkg": "dist/umd/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "scripts": {
+    "build:es": "vue-tsc -b && vite build",
+    "build:umd": "vue-tsc -b && vite build --config vite.config.umd.ts",
+    "build": "rimraf dist && rimraf types && pnpm run aeac && pnpm run build:es && pnpm run build:umd",
+    "preview": "vite preview",
+    "aeac": "rimraf src/index.ts && rimraf src/install.ts && esno .build/scripts/auto-export-all-components.js"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.17"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vue-tsc": "^2.2.10",
+    "vite": "^6.3.5",
+    "typescript": "~5.8.3",
+    "sass": "^1.89.2",
+    "rimraf": "^6.0.1",
+    "element-plus": "^2.9.7",
+    "@vue/tsconfig": "^0.7.0",
+    "@vitejs/plugin-vue": "^5.2.4"
+  }
+}
