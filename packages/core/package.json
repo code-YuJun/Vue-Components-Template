@@ -45,9 +45,8 @@
     "build:es": "vue-tsc -b && vite build",
     "build:umd": "vue-tsc -b && vite build --config vite.config.umd.ts",
     "build": "rimraf dist && rimraf types && pnpm run aeac && pnpm run build:es && pnpm run build:umd",
-    "dev": "vite -p 6006",
-    "preview": "vite preview",
-    "aeac": "rimraf src/index.ts && rimraf src/install.ts && esno .build/scripts/auto-export-all-components.js"
+    "aeac": "rimraf src/index.ts && rimraf src/install.ts && esno .build/scripts/auto-export-all-components.js",
+    "dev": "vite"
   },
   "peerDependencies": {
     "vue": "^3.5.17"
