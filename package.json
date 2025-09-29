@@ -26,10 +26,13 @@
     "typescript": "5.8.2",
     "turbo": "^2.5.4",
     "eslint": "^9.30.0",
+    "@antfu/eslint-config": "^4.16.1",
+    "eslint-plugin-format": "^1.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
-    "stylelint": "^16.21.0"
+    "stylelint": "^16.21.0",
+    "esno": "^4.8.0"
   },
   "config": {
     "commitizen": {

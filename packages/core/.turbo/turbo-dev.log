@@ -1,18 +1,12 @@
 [?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
 > vue-components@1.0.0 dev C:\Users\25941\Desktop\Vue-Components-Template\packages\core
-> vite[5;1H[?25h[?25l[12;1H[?25h
+> vite[5;1H[?25h
 
 
 
 [?25l[H[K
-  [32m[1mVITE[22m v6.3.6  [m[2mready in [22m[1m653[22m ms[K
+  [32m[1mVITE[22m v6.3.6  [m[2mready in [22m[1m582[22m ms[K
 [K
   [32m➜  [m[1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[K[m[2m
-  [32m➜  [m[1m[2mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m[K[32m[2m
-  ➜  [m[2mpress [22m[1mh + enter[22m[2m to show help[22m[K
-[K
-[K
-[K
-[K
-[K
-[K[7;1H[?25h
+  [32m➜  [m[1m[2mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m[K[?25h
+[32m[2m  ➜  [m[2mpress [22m[1mh + enter[22m[2m to show help[22m[K

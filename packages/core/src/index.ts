@@ -6,10 +6,10 @@ export * from './components';
 export * from './hooks';
 
 const VueComponents: Plugin = {
-    install(app: App) {
-        app.component('CpnA', CpnA);
-        app.component('CpnB', CpnB);
-    }
-}
+  install(app: App) {
+    app.component('CpnA', CpnA);
+    app.component('CpnB', CpnB);
+  }
+};
 
 export default VueComponents;
