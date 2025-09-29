@@ -4,9 +4,7 @@ import { useTextDisplay } from './hook'
 const { displayText, textLength, updateText, clearText, resetText } = useTextDisplay()
 
 // Vue 3.5 以上版本支持解构 props
-const { text } = withDefaults(defineProps<WelcomeProps>(), {
-    text: 'title'
-})
+const { text = 'title' } = defineProps<WelcomeProps>()
 
 // 可以在组件中定义使用hook方法的事件处理函数
 function handleUpdateText() {
