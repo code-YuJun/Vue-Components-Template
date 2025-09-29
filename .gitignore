@@ -4,3 +4,4 @@ node_modules
 .turbo
 
 .idea
+auto-imports.d.ts

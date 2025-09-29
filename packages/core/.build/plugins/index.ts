@@ -3,7 +3,11 @@ import vue from '@vitejs/plugin-vue';
 import autoImportPlugin from './autoImport';
 
 const plugins: PluginOption[] = [
-    vue(),
+    vue({
+        script: {
+            propsDestructure: true,
+        },
+    }) as PluginOption,
     ...autoImportPlugin,
 ]
 

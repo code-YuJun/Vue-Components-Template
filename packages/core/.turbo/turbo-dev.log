@@ -1,9 +1,455 @@
 [?9001h[?1004h[?25l[2J[m[H]0;C:\WINDOWS\system32\cmd.exe [?25h[?25l
 > vue-components@1.0.0 dev C:\Users\25941\Desktop\Vue-Components-Template\packages\core
-> vite[5;1H[?25h[2m10:47:17[22m [36m[1m[vite][m [90m[2m(client)[m Re-optimizing dependencies because lockfile has changed
+> vite[5;1H[?25h[?25l[16;1H[?25h
 
-  [32m[1mVITE[22m v6.3.6  [m[2mready in [22m[1m713[22m ms[K
 
-  [32m➜  [m[1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[K[m
-[2m  [32m➜  [m[1m[2mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m[K
-[32m[2m  ➜  [m[2mpress [22m[1mh + enter[22m[2m to show help[22m[K
+
+[?25l[H[K
+  [32m[1mVITE[22m v6.3.6  [m[2mready in [22m[1m544[22m ms[K
+[K
+  [32m➜  [m[1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[K[m[2m
+  [32m➜  [m[1m[2mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m[K[32m[2m
+  ➜  [m[2mpress [22m[1mh + enter[22m[2m to show help[22m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[7;1H[?25h[?25l[33m[1m[@vue/compiler-sfc][22m withDefaults() is unnecessary when using destructure with defineProps().
+Reactive destructure will be disabled when using withDefaults().
+Prefer using destructure default values, e.g. const { foo = 1 } = defineProps(...). [11;1HC:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnB/index.vue
+4  |  import Footer from './components/footer/index.vue'
+5  |  // Vue 3.5 以上版本支持解构 props
+6  |  const {propsA, propsB, propsC} = withDefaults(defineProps<CpnBProps>(), {
+   |                                   ^^^^^^^^^^^^
+7  |      propsA: '默认值A',[?25h[m
+[33m8  |      propsB: 123,[m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[2m[H15:25:35[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnB/index.vue[22m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:28:21[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:28:38[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/style.scss?vue&type=style&index=0&src=e1fcfbbd&scoped=e1fcfbbd&lang.scss[22m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:28:39[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/style.scss?vue&type=style&index=0&src=e1fcfbbd&scoped=e1fcfbbd&lang.scss[22m [33m(x2)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:29:37[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/style.scss?vue&type=style&index=0&src=e1fcfbbd&scoped=e1fcfbbd&lang.scss[22m [33m(x3)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:29:38[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/style.scss?vue&type=style&index=0&src=e1fcfbbd&scoped=e1fcfbbd&lang.scss[22m [33m(x4)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:36:10[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:36:13[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x2)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:36:21[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x3)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:36:38[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x4)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:36:51[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x5)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:37:03[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x6)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:37:06[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x7)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:37:14[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x8)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:38:18[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x9)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:38:28[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x10)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:38:28[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x11)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:38:34[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x12)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:38:36[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x13)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:46:19[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x14)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[16;1H[?25h
+
+[?25l[2m[H15:46:45[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x15)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[33m[1m[@vue/compiler-sfc][22m withDefaults() is unnecessary when using destructure with defineProps().
+Reactive destructure will be disabled when using withDefaults().
+Prefer using destructure default values, e.g. const { foo = 1 } = defineProps(...). [7;1HC:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue
+5  |  
+6  |  // Vue 3.5 以上版本支持解构 props
+7  |  const { text } = withDefaults(defineProps<WelcomeProps>(), {
+   |                   ^^^^^^^^^^^^
+8  |      text: 'title'
+9  |  })[15;1H[?25h[m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l
+[2m[H15:47:20[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x16)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h[?25l[33m[1m[@vue/compiler-sfc][22m withDefaults() is unnecessary when using destructure with defineProps().
+Reactive destructure will be disabled when using withDefaults().
+Prefer using destructure default values, e.g. const { foo = 1 } = defineProps(...). [7;1HC:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue
+5  |  
+6  |  // Vue 3.5 以上版本支持解构 props
+7  |  const { text } = withDefaults(defineProps<WelcomeProps>(), {
+   |                   ^^^^^^^^^^^^
+8  |      text: 'title'
+9  |  })[15;1H[?25h[m
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l
+[2m[H15:47:59[22m [36m[1m[vite][m [90m[2m(client)[m [32mhmr update [m[2m/@fs/C:/Users/25941/Desktop/Vue-Components-Template/packages/core/src/components/CpnA/index.vue[22m [33m(x17)[K[m
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[3;1H[?25h

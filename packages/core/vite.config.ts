@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
             alias: {
                 '@': path.resolve(__dirname, 'src')
             }
-        }
+        } 
     };
     if (__DEV__) {
         // 开发模式配置
