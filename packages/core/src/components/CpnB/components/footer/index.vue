@@ -2,9 +2,21 @@
 import { ElButton } from 'element-plus';
 </script>
 <template>
-    <div>
-        <h1>组件B-页脚</h1>
-         <ElButton>Default</ElButton>
+    <div class="cpn-b-footer">
+        <div>使用组件库组件</div>
+        <el-button>Default</el-button>
+        <el-button type="primary">Primary</el-button>
+        <el-button type="success">Success</el-button>
+        <el-button type="info">Info</el-button>
+        <el-button type="warning">Warning</el-button>
+        <el-button type="danger">Danger</el-button>
     </div>
 </template>
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.cpn-b-footer{
+    margin-top: 20px;
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+    border-radius: 4px;
+}
+</style>

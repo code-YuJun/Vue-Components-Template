@@ -1,11 +1,11 @@
 import { defineConfig, type UserConfig } from 'vite';
+import plugins from './.build/plugins';
 import path from 'node:path';
-import vue from '@vitejs/plugin-vue';
 
 export default defineConfig(({ mode }) => {
     const __DEV__ = mode === 'development';
     const baseConfig: UserConfig = {
-        plugins: [vue()],
+        plugins: [...plugins],
         resolve: {
             alias: {
                 '@': path.resolve(__dirname, 'src')
