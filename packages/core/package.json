@@ -1,7 +1,7 @@
 {
   "name": "vue3-components-template",
   "type": "module",
-  "version": "1.0.2-beta.0",
+  "version": "1.0.2",
   "homepage": "",
   "description": "Vue组件库模板",
   "repository": {
