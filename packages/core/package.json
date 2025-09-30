@@ -1,7 +1,7 @@
 {
   "name": "vue3-components-template",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2-beta.0",
   "homepage": "",
   "description": "Vue组件库模板",
   "repository": {
@@ -64,6 +64,8 @@
     "unplugin-auto-import": "^19.3.0",
     "@types/fs-extra": "^11.0.4",
     "fs-extra": "^11.2.0",
-    "fast-glob": "^3.3.3"
+    "fast-glob": "^3.3.3",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "vite-plugin-lib-inject-css": "^2.2.2"
   }
 }

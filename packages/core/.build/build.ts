@@ -63,10 +63,15 @@ const buildConfig: BuildEnvironmentOptions = {
     },
     rollupOptions: {
         external: [
-            'vue'
+            'vue',
+            'element-plus'
         ],
         // 输出文件
         output: {
+            globals: {
+                vue: 'Vue'
+            },
+            exports: 'named',
             assetFileNames: ((info: any) => {
                 const srcName = info.originalFileNames[0];
                 if (srcName) {

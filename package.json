@@ -7,11 +7,11 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "build:core": "turbo run build --filter=vue-components",
+    "build:core": "turbo run build --filter=vue3-components-template",
     "publish:core": "cd packages/core && npm publish",
     "publish:core:beta": "cd packages/core && npm publish --tag beta",
-    "dev:core": "turbo run dev --filter=vue-components",
-    "ci:publish": "pnpm changeset publish -r --filter=vue-components",
+    "dev:core": "turbo run dev --filter=vue3-components-template",
+    "ci:publish": "pnpm changeset publish -r --filter=vue3-components-template",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "lint": "turbo run lint",
@@ -32,7 +32,8 @@
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "stylelint": "^16.21.0",
-    "esno": "^4.8.0"
+    "esno": "^4.8.0",
+    "@changesets/cli": "^2.29.5"
   },
   "config": {
     "commitizen": {

@@ -14,9 +14,6 @@ function handleClickFinish() {
 function handleClickEnd() {
     emits('end');
 }
-onMounted(() => {
-    console.log('B组件属性值：' + propsA + ' ' + propsB + ' ' + propsC)
-})
 </script>
 <template>
     <div class="cpn-b">
