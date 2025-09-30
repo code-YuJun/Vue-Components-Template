@@ -1,5 +1,5 @@
 import antfu from '@antfu/eslint-config';
-console.log('开始检查代码了')
+
 export default antfu({
     formatters: true,
     vue: {

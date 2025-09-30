@@ -1,16 +1,18 @@
 import { defineConfig, type UserConfig } from 'vite';
-import plugins from './.build/plugins';
 import path from 'node:path';
+import plugins from './.build/plugins';
+import buildConfig from './.build/build';
 
 export default defineConfig(({ mode }) => {
     const __DEV__ = mode === 'development';
     const baseConfig: UserConfig = {
-        plugins: [...plugins],
+        plugins,
+        build: buildConfig,
         resolve: {
             alias: {
                 '@': path.resolve(__dirname, 'src')
             }
-        } 
+        }
     };
     if (__DEV__) {
         // 开发模式配置

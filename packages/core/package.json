@@ -45,7 +45,7 @@
     "dev": "vite",
     "build:es": "vue-tsc -b && vite build",
     "build:umd": "vue-tsc -b && vite build --config vite.config.umd.ts",
-    "build": "rimraf dist && rimraf types && pnpm run aeac && pnpm run build:es && pnpm run build:umd",
+    "build": "rimraf dist && rimraf types && pnpm run aeac && pnpm run build:es",
     "aeac": "rimraf src/index.ts && esno .build/scripts/auto-export-all-components.js"
   },
   "peerDependencies": {
@@ -63,6 +63,7 @@
     "@vitejs/plugin-vue": "^5.2.4",
     "unplugin-auto-import": "^19.3.0",
     "@types/fs-extra": "^11.0.4",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "fast-glob": "^3.3.3"
   }
 }
